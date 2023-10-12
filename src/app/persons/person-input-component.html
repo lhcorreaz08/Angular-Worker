@@ -1,5 +1,5 @@
 <label for="name">Name</label>
 
-<input type="text" id="name" >
+<input type="text" id="name" [(ngModel)]="enteredPersonName">
 
-<button>Create</button>
+<button (click)="onCreatePerson()" >Create</button>
